@@ -30,7 +30,7 @@ const Intro = () => {
           as a Software Engineer
         </p>
         <a
-          href="https://drive.google.com/u/0/uc?id=1E3aCP-m7RdANh8KV-zxUIBFz8bZvHrp2&export=download"
+          href="https://drive.google.com/u/0/uc?id=1NspiUjkGsYcN1QMC1Ey244Jtknzp3v8A&export=download"
           download="Resume - Ameya Awatade"
         >
           <button className="intro-resume">Download Resume</button>
