@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ameyaawatade.github.io/static/css/main.06b47794.css",
-    "main.js": "/ameyaawatade.github.io/static/js/main.7025f164.js",
+    "main.js": "/ameyaawatade.github.io/static/js/main.bfb47a19.js",
     "static/js/787.21d17fcb.chunk.js": "/ameyaawatade.github.io/static/js/787.21d17fcb.chunk.js",
     "static/media/profilephoto.png": "/ameyaawatade.github.io/static/media/profilephoto.68e1a6f1e60cf2957d8a.png",
     "static/media/aboutme.png": "/ameyaawatade.github.io/static/media/aboutme.f61f441cf1bc21acd036.png",
@@ -13,11 +13,11 @@
     "static/media/powerappslogo.png": "/ameyaawatade.github.io/static/media/powerappslogo.c343a92d6338d415575c.png",
     "index.html": "/ameyaawatade.github.io/index.html",
     "main.06b47794.css.map": "/ameyaawatade.github.io/static/css/main.06b47794.css.map",
-    "main.7025f164.js.map": "/ameyaawatade.github.io/static/js/main.7025f164.js.map",
+    "main.bfb47a19.js.map": "/ameyaawatade.github.io/static/js/main.bfb47a19.js.map",
     "787.21d17fcb.chunk.js.map": "/ameyaawatade.github.io/static/js/787.21d17fcb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.06b47794.css",
-    "static/js/main.7025f164.js"
+    "static/js/main.bfb47a19.js"
   ]
 }
