@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../Styles/ContactMe.css";
 import TextField from "@mui/material/TextField";
+import emailjs from "@emailjs/browser";
 
 const ContactMe = () => {
   const [data, setData] = useState({
@@ -16,6 +17,20 @@ const ContactMe = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    let fromname = data.name.trim();
+    let emailID = data.email.trim();
+    let phoneNumber = data.phoneNumber.trim();
+    let message = data.message.trim();
+    emailjs.init("7it6lhchycIVPkzgm");
+    emailjs.send("service_65np1yr", "template_mhuf652", {
+      from_name: fromname,
+      name:
+        fromname === null || fromname === "" ? emailID.split("@")[0] : fromname,
+      email: emailID,
+      phone_num: phoneNumber,
+      message: message,
+    });
+    setData({ name: "", email: "", phoneNumber: "", message: "" });
   };
   return (
     <div className="contact-me-container" id="contact">
