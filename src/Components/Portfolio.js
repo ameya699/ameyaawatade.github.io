@@ -24,7 +24,7 @@ const Portfolio = () => {
   const [expanded, setExpanded] = React.useState(true);
 
   return (
-    <div style={{ paddingBottom: "5rem" }}>
+    <div style={{ paddingBottom: "5rem" }} id="tech">
       <h1 className="portfolio-heading">My Skills</h1>
       <div className="portfolio-body">
         {data.map((skill, index) => {

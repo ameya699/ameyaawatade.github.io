@@ -11,17 +11,14 @@ const ContactMe = () => {
   });
 
   const handleChange = (e) => {
-    console.log(data);
     setData({ ...data, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(data);
-    
   };
   return (
-    <div className="contact-me-container">
+    <div className="contact-me-container" id="contact">
       <h1 className="contact-me-heading">Write to me</h1>
       <form onSubmit={handleSubmit}>
         <div

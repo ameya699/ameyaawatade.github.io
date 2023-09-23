@@ -4,10 +4,16 @@ import "../Styles/NavbarMenu.css";
 const Navbar = () => {
   return (
     <div className="flex-disp">
-      <button className="nav-menu">About</button>
-      <button className="nav-menu">Portfolio</button>
+      <a type="button" className="nav-menu" href="#about">
+        About{" "}
+      </a>
+      <a type="button" className="nav-menu" href="#tech">
+        Tech{" "}
+      </a>
       {/* <button className="nav-menu">Experience</button> */}
-      <button className="nav-menu">Contact</button>
+      <a type="button" className="nav-menu" href="#contact">
+        Contact{" "}
+      </a>
     </div>
   );
 };
