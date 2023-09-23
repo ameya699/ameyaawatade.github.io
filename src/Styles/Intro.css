@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Kiwi+Maru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Inter:wght@200;400&family=Kiwi+Maru&display=swap");
+
+.intro-template {
+  padding-top: 11.25rem;
+  padding-left: 11.25rem;
+  display: block;
+  flex-wrap: wrap;
+  margin: 0px;
+  column-gap: 1rem;
+}
+
+.intro-hello {
+  color: #1e1e1e;
+  font-family: "Inter", sans-serif;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  flex-wrap: wrap;
+}
+.intro-iam {
+  color: #1e1e1e;
+  font-family: "Kiwi Maru", serif;
+  font-size: 32.83px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline;
+  float: left;
+  padding-right: 1rem;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.intro-name {
+  color: #ee1919;
+  font-family: "Kiwi Maru", serif;
+  font-size: 32.83px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline;
+  float: left;
+  padding-right: 1rem;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.intro-surname {
+  color: #1e1e1e;
+  font-family: "Kiwi Maru", serif;
+  font-size: 32.83px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  flex-wrap: wrap;
+  display: inline;
+}
+
+.intro-photo {
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 380px;
+  float: right;
+  /* margin-left: 48vh; */
+  margin-bottom: 10%;
+  margin-right: 5rem;
+}
+
+.intro-resume {
+  width: 190px;
+  height: 33px;
+  flex-shrink: 0;
+  border-radius: 33px;
+  background: #252424;
+  color: #f0ecec;
+  text-align: center;
+  font-family: "IBM Plex Mono", monospace;
+  font-size: 16.255px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transition: 0.4s;
+  margin-top: 2.5rem;
+}
+.intro-resume:hover {
+  background-color: #6bc78a;
+  color: black;
+}
+.intro-details {
+  padding-top: 1rem;
+}

@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap");
+
+.nav-menu {
+  color: #1e1e1e;
+  font-family: "Inter", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  transition: 0.4s;
+  border-radius: 10px;
+  background-color: #f0ecec;
+}
+.nav-menu:hover {
+  box-shadow: 0 16px 16px 0 rgba(0, 0, 0, 0.1), 0 0 48px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flex-disp {
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  flex-wrap: wrap;
+  padding-top: 28px;
+}

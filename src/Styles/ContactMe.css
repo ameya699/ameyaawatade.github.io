@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Inter:wght@200;400&family=Istok+Web&family=Kiwi+Maru&family=Roboto+Mono:wght@200&display=swap");
+.contact-me-container {
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+  background-color: #252424;
+  width: auto;
+  height: auto;
+}
+
+.contact-me-heading {
+  color: #fbfbfb;
+  text-align: left;
+  font-family: Istok Web;
+  font-size: 41px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 11.25rem;
+}
+
+.partition-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 12rem;
+  flex-wrap: wrap;
+}
+
+.contact-me-button {
+  padding-left: 5px;
+  width: 140px;
+  height: 38px;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+  border-radius: 33px;
+  background: #6bc78a;
+  transition: 0.4s;
+}
+
+.contact-me-button:hover {
+  background-color: #fbfbfb;
+  color: black;
+}
