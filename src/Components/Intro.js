@@ -8,27 +8,29 @@ const Intro = () => {
   return (
     <div className="intro-template">
       <div style={{ display: "inline", margin: "0", float: "left" }}>
-        <p className="intro-hello">Hello ,</p>
-        <p className="intro-iam">I'm</p>
-        <p className="intro-name">Ameya</p>
-        <p className="intro-surname">Awatade</p>
-        <p className="intro-details">
-          Working at{" "}
-          <a
-            href="#"
-            style={{ color: "red", textDecoration: "none" }}
-            onClick={() => {
-              window.open(
-                "https://www.persistent.com/",
-                "_blank",
-                "noreferrer"
-              );
-            }}
-          >
-            Persistent Systems{" "}
-          </a>
-          as a Software Engineer
-        </p>
+        <div>
+          <p className="intro-hello">Hello ,</p>
+          <p className="intro-iam">I'm</p>
+          <p className="intro-name">Ameya</p>
+          <p className="intro-surname">Awatade</p>
+          <p className="intro-details">
+            Working at{" "}
+            <a
+              href="#"
+              style={{ color: "red", textDecoration: "none" }}
+              onClick={() => {
+                window.open(
+                  "https://www.persistent.com/",
+                  "_blank",
+                  "noreferrer"
+                );
+              }}
+            >
+              Persistent Systems{" "}
+            </a>
+            as a Software Engineer
+          </p>
+        </div>
         <a
           href="https://drive.google.com/u/0/uc?id=1NspiUjkGsYcN1QMC1Ey244Jtknzp3v8A&export=download"
           download="Resume - Ameya Awatade"

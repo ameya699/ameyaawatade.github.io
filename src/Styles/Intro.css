@@ -5,10 +5,13 @@
 .intro-template {
   padding-top: 11.25rem;
   padding-left: 11.25rem;
-  display: block;
+  display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
   margin: 0px;
-  column-gap: 1rem;
+  width: auto;
+  padding-bottom: 5rem;
+  row-gap: 1rem;
 }
 
 .intro-hello {
@@ -65,8 +68,6 @@
   width: 380px;
   float: right;
   /* margin-left: 48vh; */
-  margin-bottom: 10%;
-  margin-right: 5rem;
 }
 
 .intro-resume {

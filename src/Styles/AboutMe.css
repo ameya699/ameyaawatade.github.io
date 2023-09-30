@@ -2,10 +2,16 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Inter:wght@200;400&family=Istok+Web&family=Kiwi+Maru&family=Roboto+Mono:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&family=Inter:wght@200;400&family=Kiwi+Maru&display=swap");
 .about-me-div {
-  display: inline-block;
+  display: flex;
   background: #252424;
+  justify-content: space-between;
   padding-bottom: 5rem;
+  align-items: center;
   padding-top: 5rem;
+  flex-wrap: wrap-reverse;
+  padding-left: 180px;
+  padding-top: 5rem;
+  width: auto;
 }
 
 .about-me-heading {
@@ -15,8 +21,6 @@
   font-style: normal;
   font-weight: lighter;
   line-height: normal;
-  padding-left: 180px;
-  padding-top: 20px;
 }
 
 .about-me-description {
@@ -26,12 +30,11 @@
   font-style: normal;
   font-weight: lighter;
   line-height: normal;
-  padding-left: 180px;
-  padding-top: 20px;
+
   max-width: 50%;
-  display: inline;
+
   margin: 0px;
-  float: left;
+
   word-spacing: 1px;
   line-height: 30px;
 }
@@ -46,7 +49,9 @@
   line-height: normal;
   width: 190px;
   height: 33px;
-  flex-shrink: 0;
+  display: block;
+  margin-top: 1rem;
+
   border-radius: 33px;
   background: whitesmoke;
   transition: 0.4s;
@@ -59,6 +64,5 @@
 
 .about-me-photo {
   background-repeat: no-repeat;
-  height: 31.25rem;
-  margin-left: 6rem;
+  height: 300px;
 }

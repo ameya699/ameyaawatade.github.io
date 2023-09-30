@@ -10,7 +10,7 @@
   border: none;
   transition: 0.4s;
   border-radius: 10px;
-  background-color: #f0ecec;
+
   text-decoration: none;
 }
 .nav-menu:hover {
@@ -19,8 +19,10 @@
 
 .flex-disp {
   display: flex;
-  justify-content: center;
-  column-gap: 50px;
+  justify-content: space-evenly;
+  width: auto;
   flex-wrap: wrap;
-  padding-top: 28px;
+  padding-top: 0.8rem;
+  background-color: rgb(204, 240, 228);
+  padding-bottom: 0.8rem;
 }

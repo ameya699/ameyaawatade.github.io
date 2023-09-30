@@ -35,7 +35,15 @@ const ContactMe = () => {
   return (
     <div className="contact-me-container" id="contact">
       <h1 className="contact-me-heading">Write to me</h1>
-      <form onSubmit={handleSubmit}>
+      <form
+        onSubmit={handleSubmit}
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          paddingRight: "1rem",
+          justifyContent: "space-between",
+        }}
+      >
         <div
           style={{
             paddingLeft: "11rem",
@@ -44,6 +52,8 @@ const ContactMe = () => {
             columnGap: "4rem",
             flexWrap: "wrap",
             columnCount: "2",
+            flexWrap: "wrap",
+            columnGap: "1rem",
           }}
         >
           <div>
@@ -68,7 +78,7 @@ const ContactMe = () => {
                 id="exampleFormControlInput1"
                 placeholder="Email"
                 name="email"
-                style={{ maxWidth: "500px" }}
+                style={{ maxWidth: "500px", width: "500px" }}
                 required
                 value={data.email}
                 onChange={handleChange}
@@ -83,7 +93,7 @@ const ContactMe = () => {
                 name="phoneNumber"
                 placeholder="Phone number"
                 required
-                style={{ maxWidth: "500px" }}
+                style={{ maxWidth: "500px", width: "500px" }}
                 value={data.phoneNumber}
                 onChange={handleChange}
               />
